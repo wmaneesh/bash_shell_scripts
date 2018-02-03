@@ -1,4 +1,5 @@
 #!/bin/sh
+#Searches for a executable file specified by the argument $1 in all the linux directories provided by path
 PATH=$(echo "$PATH" | tr ":" " ")
 
 for i in $PATH
