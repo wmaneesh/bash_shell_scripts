@@ -1,0 +1,5 @@
+#!/bin/sh
+#gives executable permision to file presented by the argument $1
+chmod u+x $1
+echo $1 is now executable:
+ls -l $1
