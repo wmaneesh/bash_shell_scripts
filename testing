@@ -1,0 +1,6 @@
+#!/bin/sh
+python=$PATH | tr ":" "\n"
+echo $pythonpath
+echo $python
+echo "$PATH | tr ":" "\n""
+echo $PATH | tr ":" "\n"

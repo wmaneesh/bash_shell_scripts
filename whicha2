@@ -1,0 +1,11 @@
+#!/bin/sh
+PATH=$(echo "$PATH" | tr ":" " ")
+
+for i in $PATH
+do
+	if  [ -x $i/$1 ]
+	then
+		echo $i
+	fi
+done
+	
